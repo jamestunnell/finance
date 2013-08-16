@@ -1,0 +1,27 @@
+= finance
+
+* {Homepage}[https://rubygems.org/gems/finance]
+* {Documentation}[http://rubydoc.info/gems/finance/frames]
+* {Email}[mailto:jamestunnell at gmail.com]
+
+== Description
+
+Plan and keep track of project/activity finance, including budgeting and accounting.
+
+== Features
+
+== Examples
+
+  require 'finance'
+
+== Requirements
+
+== Install
+
+  $ gem install finance
+
+== Copyright
+
+Copyright (c) 2013 James Tunnell
+
+See LICENSE.txt for details.
