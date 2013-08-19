@@ -1,15 +1,10 @@
 require 'date'
 
 module Finance
-class Yearly
-  def initialize time
-    @time = time
-  end
-
+class Yearly < Struct.new(:month, :mday)
   def occurances time_range
     raise RangeDecreasingError if time_range.decreasing?
-
-    cur = Date.new(time_range.min.year, @time.month, @time.day)
+    cur = Date.new(time_range.min.year, month, mday)
 
     start = time_range.min
     if cur < start
