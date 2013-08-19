@@ -1,4 +1,5 @@
 require 'rspec'
-require 'finance/version'
+require 'finance'
+require 'pry'
 
 include Finance
