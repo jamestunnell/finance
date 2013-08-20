@@ -2,7 +2,11 @@ require 'scheduling'
 
 module Finance
   class PaymentSchedule < Struct.new(:amount, :schedule)
-    def payments date_range
+    def date_range
+      schedule.date_range
+    end
+
+    def payments date_range = self.date_range
       payments = {}
       schedule.occurances(date_range).each do |date|
         payments[date] = amount
@@ -11,7 +15,7 @@ module Finance
     end
 
     def total_payment
-      schedule.occurances(date_range).count * amount
+      schedule.occurances(schedule.date_range).count * amount
     end
   end
 end
