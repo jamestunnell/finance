@@ -2,3 +2,6 @@
 
 * Initial release:
 
+=== 0.1.2 / 2013-08-20
+
+Add Budget class, for allocating an amount of some resource for various purposes. 

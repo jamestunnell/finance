@@ -5,8 +5,8 @@ require File.expand_path('../lib/finance/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.name          = "finance"
   gem.version       = Finance::VERSION
-  gem.summary       = %q{Keep track of project/activity finance, including budgeting and accounting.}
-  gem.description   = %q{Plan and keep track of project/activity finance, including budgeting and accounting.}
+  gem.summary       = %q{Financial activities, i.e. budgeting, accounting, and the like.}
+  gem.description   = %q{Financial activities, i.e. budgeting, accounting, and the like.}
   gem.license       = "MIT"
   gem.authors       = ["James Tunnell"]
   gem.email         = "jamestunnell@gmail.com"

@@ -2,11 +2,11 @@
 
 * {Homepage}[https://rubygems.org/gems/finance]
 * {Documentation}[http://rubydoc.info/gems/finance/frames]
-* {Email}[mailto:jamestunnell at gmail.com]
+* {Email}[mailto:jamestunnell@gmail.com]
 
 == Description
 
-Plan and keep track of project/activity finance, including budgeting and accounting.
+Financial activities, i.e. budgeting, accounting, and the like.
 
 == Features
 
