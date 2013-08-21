@@ -29,11 +29,14 @@ class Budget
   end
 
   def to_s title = ""
-    args = { :headings => ['Item','Amount'], :rows => allocations.to_a }
+    args = { :headings => ['Item','Amount'], :rows => allocations.to_a}
     unless title.empty?
       args[:title] = title
     end
-    Terminal::Table.new(args).to_s
+    t = Terminal::Table.new(args)
+    t.add_separator
+    t.add_row ['Total',total]
+    t.to_s
   end
 end
 end
